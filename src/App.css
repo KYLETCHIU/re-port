@@ -1,20 +1,55 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
 
 .bdy{
-    background-color: #f2efe9;
+    background:url(MP.jpeg) no-repeat;
+    background-size: cover;
     height: 100vh;
+    justify-content: center !important;
+    text-align: center !important;
+    align-items: center !important;
 }
 
 .title {
   justify-content: center;
   text-align: center;
   align-items: center;
-  font-family: 'Roboto', sans-serif;
-  padding-top: 1.25rem;
+  font-family: 'Inter', sans-serif;
+  padding-top: 5.25rem;
+  font-size:xx-large;
+  color: #ff564e;
 }
     
+.hmcard{
+    background-color: #F6E8EA !important;
+}
+
+.hmbtn{
+    background-color:#EF626C !important;
+    border: #EF626C
+}
+
 .cardd{
     justify-content: center;
     align-items: center;
     text-align: center;
 }
+
+.porty{
+    background-color: #F6E8EA;
+}
+
+.crdfooter{
+   background-color: #BFB48F !important; 
+   color: #BFB48F !important; 
+}
+
+Button{
+    background-color:#904E55 !important;
+    border: #904E55 !important;
+}
+
+.crdbody{
+    background-color:#f2efe9 !important;
+}
+
