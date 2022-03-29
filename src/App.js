@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Navigation from './components/Navbar/navbar';
+import Footer from './components/Footer/footer';
 import { BrowserRouter as Router, Routes, Route}
 	from 'react-router-dom';
 import Home from './pages';
@@ -20,6 +21,7 @@ return (
     	<Route path='/portfolio' element={<Portfolio/>} />
 		<Route path='/contact' element={<Contact/>} />
 	</Routes>
+	<Footer />
 	</Router>
 );
 }

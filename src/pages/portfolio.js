@@ -11,7 +11,7 @@ const Portfolio = () => {
   return (
     <>
       <div className="porty">
-        <div className="title">
+        <div className="portytitle">
           <h1>My apps</h1>
         </div>
 
@@ -23,12 +23,9 @@ const Portfolio = () => {
               <Card.Text>
                 A way for developers to collaberate and stay in touch.
               </Card.Text>
-              <Button variant="primary">App</Button>
-              <Button variant="primary">GitHub Repo</Button>
+              <Button className="prtbtn" href="http://gh.githomies.com/">App</Button>
+              <Button className="prtbtn" href="https://github.com/KYLETCHIU/gitHomies">GitHub Repo</Button>
             </Card.Body>
-            <Card.Footer className ="crdfooter">
-              <small className="text-muted">Be sure to check out the GitHub Repo</small>
-            </Card.Footer>
           </Card>
           <Card className="portcards">
             <Card.Img variant="top" src={WDS} />
@@ -37,12 +34,9 @@ const Portfolio = () => {
               <Card.Text>
                 A simple way to play out your day.
               </Card.Text>
-              <Button variant="primary">App</Button>
-              <Button variant="primary">GitHub Repo</Button>
+              <Button className="prtbtn" href="https://kyletchiu.github.io/WorkDayPlannerOrganized/">App</Button>
+              <Button className="prtbtn" href="https://github.com/KYLETCHIU/WorkDayPlannerOrganized">GitHub Repo</Button>
             </Card.Body>
-            <Card.Footer className ="crdfooter">
-              <small className="text-muted">Be sure to check out the GitHub Repo</small>
-            </Card.Footer>
           </Card>
           <Card className="portcards">
             <Card.Img variant="top" src={CQ} />
@@ -51,12 +45,9 @@ const Portfolio = () => {
               <Card.Text>
                 Test your knowledge of coding with a fun quiz.
               </Card.Text>
-              <Button variant="primary">App</Button>
-              <Button variant="primary">GitHub Repo</Button>
+              <Button className="prtbtn" href="https://kyletchiu.github.io/kylecodequiz/">App</Button>
+              <Button className="prtbtn" href="https://github.com/KYLETCHIU/kylecodequiz">GitHub Repo</Button>
             </Card.Body>
-            <Card.Footer className ="crdfooter">
-              <small className="text-muted">Be sure to check out the GitHub Repo</small>
-            </Card.Footer>
           </Card>
         </CardGroup>
         <CardGroup className="crdgrp">
@@ -67,12 +58,9 @@ const Portfolio = () => {
               <Card.Text>
                 Just Another Text Editor
               </Card.Text>
-              <Button variant="primary">App</Button>
-              <Button variant="primary">GitHub Repo</Button>
+              <Button className="prtbtn" href="https://kylestexteditor.herokuapp.com/">App</Button>
+              <Button className="prtbtn" href="https://github.com/KYLETCHIU/TextEditor">GitHub Repo</Button>
             </Card.Body>
-            <Card.Footer className ="crdfooter">
-              <small className="text-muted">Be sure to check out the GitHub Repo</small>
-            </Card.Footer>
           </Card>
           <Card className="portcards">
             <Card.Img variant="top" src={WD} />
@@ -81,26 +69,20 @@ const Portfolio = () => {
               <Card.Text>
                 Is it going to rain? Find out here.
               </Card.Text>
-              <Button variant="primary">App</Button>
-              <Button variant="primary">GitHub Repo</Button>
+              <Button className="prtbtn" href="https://kyletchiu.github.io/WeatherDashboard/">App</Button>
+              <Button className="prtbtn" href="https://github.com/KYLETCHIU/WeatherDashboard">GitHub Repo</Button>
             </Card.Body>
-            <Card.Footer className ="crdfooter">
-              <small className="text-muted">Be sure to check out the GitHub Repo</small>
-            </Card.Footer>
           </Card>
           <Card className="portcards">
             <Card.Img variant="top" src={OP} />
             <Card.Body className="crdbody">
               <Card.Title>Dev Portfolio</Card.Title>
               <Card.Text>
-                Same as what youre on now..but the retro version
+                Same as what you're on now..but the retro version
               </Card.Text>
-              <Button variant="primary">App</Button>
-              <Button variant="primary">GitHub Repo</Button>
+              <Button className="prtbtn" href="https://kyletchiu.github.io/Updated-Developer-Protfolio/">App</Button>
+              <Button className="prtbtn"href="https://github.com/KYLETCHIU/Updated-Developer-Protfolio">GitHub Repo</Button>
             </Card.Body>
-            <Card.Footer className ="crdfooter">
-              <small className="text-muted">Be sure to check out the GitHub Repo</small>
-            </Card.Footer>
           </Card>
         </CardGroup>
       </div>
